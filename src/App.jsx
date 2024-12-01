@@ -1,8 +1,7 @@
 import Navbar from './components/Navbar/Navbar.jsx'
 import NavCategory from './components/NavCategory/NavCategory.jsx'
 import './App.css'
-import slide1 from './components/Slide1/slide1.jsx'
-
+import SlideShow from './components/SlideShow/SlideShow.jsx'
 function App() {
 
 
@@ -10,7 +9,7 @@ function App() {
     <>
       <Navbar/>
       <NavCategory/>
-      <slide1/>
+      <SlideShow/>
     </>
   )
 }

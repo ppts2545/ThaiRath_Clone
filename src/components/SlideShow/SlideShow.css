@@ -1,0 +1,44 @@
+.slideshow {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    height: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slide img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+p {
+    color: #666;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

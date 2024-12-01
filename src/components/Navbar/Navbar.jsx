@@ -2,14 +2,14 @@
 function Navbar() {
 
     return(
-        <nav class="navbar">
-            <div class="left-items">
+        <nav className="navbar">
+            <div className="left-items">
                 <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
             </div>
-             <div class="logo">
-                <img src="/public/images/logo.png" alt="" />
+             <div className="logo">
+                <img src="/public/uploads/logo.png" alt="" />
             </div>
-            <div class="right-items">
+            <div className="right-items">
                 <a href=""><img src="" alt="" /></a>
             </div>
         </nav>

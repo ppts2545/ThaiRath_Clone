@@ -2,7 +2,7 @@
   "name": "thairath",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "concurrently 'npm run dev' 'node server.js' ",
     "dev": "vite",
@@ -11,8 +11,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.8",
     "cors": "^2.8.5",
     "express": "^4.21.1",
+    "mysql2": "^3.11.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

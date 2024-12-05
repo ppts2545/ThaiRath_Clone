@@ -48,3 +48,13 @@
     border-radius: 5px;
   }
 
+  @media (max-width: 1399px) {
+    .NavCategory-Container{
+      display: none;;
+    }
+  }
+  @media (min-width: 1400px) {
+    .NavCategory-Container {
+      display: flex;
+    }
+  }

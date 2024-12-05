@@ -36,8 +36,6 @@ const SlideShow = () => {
                             src={slides[currentIndex]?.image_url}
                             alt={slides[currentIndex]?.title}
                         />
-                        <h2>{slides[currentIndex]?.title}</h2>
-                        <p>{slides[currentIndex]?.description}</p>
                     </div>
                     <div className="controls">
                         <button onClick={prevSlide}>Previous</button>

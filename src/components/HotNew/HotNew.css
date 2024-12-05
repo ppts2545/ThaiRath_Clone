@@ -1,13 +1,15 @@
 .HotNew-Container {
     background-image: url(../../../public/uploads/backgroundImage.jpg);
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: auto;
+    height: 519.78px;
 }
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
-    width: 100%;
-    height: 600px;
     gap: 30px;
 }
 .header {
@@ -36,15 +38,33 @@
     display: block;
 }
 .groups-New{
-    border: 1px solid red;
-    width: 400px;
-    height: 330px;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-sizing: border-box;
+    color: rgb(41, 41, 41);
+    display: block;
+    font-weight: 400px;
+    width: 405px;
+    height: 326.594px;
+    letter-spacing: 0.2px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    unicode-bidi: isolate;
 }
 .groups-New > * { /* Target all direct children */
     width: 100%; /* Make each child span the full width of .groups-New */
@@ -78,11 +98,16 @@
 }
 
 .component {
+    display: grid;
     border: 1px solid red;
     display: grid;
     height: 70px;
+    overflow: hidden;
 }
-
+.component img {
+    height: 67.5px;
+    width: 120px;
+}
 @media (max-width: 899px) {
     .container{
         flex-direction: column;
